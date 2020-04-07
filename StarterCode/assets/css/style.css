@@ -30,3 +30,36 @@ body {
   font-size: 16px;
 }
 
+.active {
+  font-weight: bold;
+  fill: #000;
+  fill: #000000;
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.inactive {
+    font-weight: lighter;
+    fill: #696969;
+    transition: fill 0.3s ease-out;
+    text-anchor: middle;
+  }
+
+.inactive:hover {
+    fill: #e75480;
+    cursor: pointer;
+  }
+  
+.tooltip {
+  position: absolute;
+  width: 135px;
+  height: 70px;
+  padding: 2px;
+  padding-top: 8px;
+  font: 12px sans-serif;
+  color: white;
+  text-align: center;
+  background: #5f5f5f;
+  border: 0;
+  border-radius: 10px;
+}
